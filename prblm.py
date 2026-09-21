@@ -63,8 +63,8 @@ print("Average:", total/len(sales))
 print("Minimum sales:", min(sales))
 print("Maximum sales:", max(sales))
 
-print("First sales:", sales[0:3])
-print("Last sales:", sales[-1])
+print("First three sales:", sales[0:3])
+print("Last sales:", sales[-1:])
 
 sales.append(300)
 
