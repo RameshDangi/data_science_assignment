@@ -107,6 +107,12 @@ customer = [
     {"name" : "Sita", "item" : "Momo", "amount" : 700}
 ]
 
+
+for c in customer:
+    print(c["name"], 'bought a ', c["item"], 'for', c["amount"])
+    break
+
+
 print(customer[0]["name"], "bought", customer[0]["item"], "for", customer[0]["amount"],".")
 
 total_collected = 0
